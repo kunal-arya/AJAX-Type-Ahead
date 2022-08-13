@@ -6,9 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AJAX Type Ahead</title>
     <link rel="stylesheet" href="style.css">
-    <script src="./script.js"></script>
+    <script src="./script.js" defer></script>
 </head>
 <body>
-    
+    <main>
+        <form class="search-form">
+            <input type="text" class="search" placeholder="City or State in USA">
+            <ul class="suggestions">
+                <li>Filter for a city</li>
+                <li>or a State</li>
+            </ul>
+        </form>
+    </main>
 </body>
 </html>
